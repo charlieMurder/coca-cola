@@ -1,0 +1,96 @@
+@media screen and (max-width:650px) {
+  .navbar_list-wrapper {
+    display: none!important;
+  }
+  .cloud {
+    display: none!important;
+  }
+  .navbar {
+    margin: 24px!important;
+  }
+  .navbar_menu-open {
+    transform: scale(10)!important;
+    & p {
+      font-size: 3px!important;
+    }
+  }
+  .FirstScreen {
+    flex-direction: column;
+  }
+  .FirstScreen_wrapper {
+    width: 100%!important;
+  }
+  .FirstScreen_header {
+    margin-top: -9em;
+    margin-left: 30px!important;
+    display: flex;
+    flex-direction: column;
+    & button {
+      width: 60%;
+      align-self: center;
+      margin-top: 2em!important;
+    }
+  }
+  .SecondScreen {
+    height: unset!important;
+  }
+  .SecondScreen_wrapper {
+    flex-direction: column;
+    margin: 0 30px!important;
+    padding: 6em 0;
+  }
+  .SecondScreen_presents-image {
+    width: 60px!important;
+    height: 60px!important;
+  }
+  .SecondScreen_menu h2 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .SecondScreen_wrapper {
+    justify-content: space-around!important;
+  }
+  .SecondScreen_presents-wrapper {
+    margin-right: 10px!important;
+  }
+  .SecondScreen_presents {
+    margin: 1em 0;
+  }
+  .SecondScreen_display {
+    width: unset!important;
+    height: 20em!important;
+  }
+  .SecondScreen_display-wrapper {
+    padding: 0!important;
+    width: unset!important;
+  }
+  .ThirdScreen{
+    justify-content: center;
+  }
+  .ThirdScreen_wrapper {
+    margin-left: 0!important;
+    padding: 0 6px!important;
+    margin-top: 5em;
+  }
+  .dedcoca {
+    width: 420px!important;
+    height: 275px!important;
+  }
+  .ThirdScreen_form-grid {
+    display: flex!important;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 45px!important;
+  }
+  h2 {
+    font-size: 32px!important;
+    line-height: 41px!important;
+  }
+  h3 {
+    font-size: 24px!important;
+  }
+  p {
+    font-size: 16px!important;
+  }
+}

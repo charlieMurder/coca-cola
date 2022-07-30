@@ -1,0 +1,61 @@
+@import url(./adaptive.scss);
+
+@font-face {
+  font-family: 'risque';
+  src: url(../fonts/Risque/Risque-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 72px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Risque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 65px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Risque';
+  font-weight: 400;
+  font-size: 38px;
+  color: #FFFFFF;
+  margin: 0.5em 0;
+}
+
+.input, .textarea {
+  border: 3px solid #fff;
+  margin: 10px 10px;
+  padding-left: 22px;
+  border-radius: 15px;
+  background-color: transparent;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #FFFFFF;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: #fff;
+  }
+}
